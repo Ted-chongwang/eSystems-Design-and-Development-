@@ -50,20 +50,20 @@
         </p>
       </div>
 
-      <div class="sectionmargin">
-        <h3>III. TECHNIQUE</h3>
-        <p class="paragraphmargin">
-Each database is designed to work in a different domain to meet the functional and non-functional requirements [6]. Some techniques that are used in MongoDB to better adept big data storage.
-        </p>
-      </div>
-    
-        <h5>A. Sharding</h5>
-        <p class="paragraphmargin">High data volume and throughput of database applications will put a lot of pressure on the performance of a single machine. Using a data model with highly distributed storage catachrestic, MongoDB divides the data and stores them into several nodes. The database developer needs to set the configurations, and the database will automatically do the Sharding work. For client developers, MongoDB Sharding is transparent, and applications only need to operate on the data.
-        </p>
-    
-        <h5>B. Replication</h5>
-        <p class="paragraphmargin">of improving fault tolerance for big data storage [7]. The architecture of MongoDB replication is that a Primary node connects with several Secondary nodes. The data will be directly updated into the Primary node and the operation will be recorded into oplog in the Primary node. Then Secondary nodes will read the oplog and update the data that what Primary node did. So that, the data on the Primary and Secondary nodes ensure the final consistency. When the Primary node fails, one Secondary node will be automatically selected as the Primary node, so that the database can run continuously.
-        </p>
+        <div class="sectionmargin">
+          <h3>III. TECHNIQUE</h3>
+          <p class="paragraphmargin">
+  Each database is designed to work in a different domain to meet the functional and non-functional requirements [6]. Some techniques that are used in MongoDB to better adept big data storage.
+          </p>
+
+          <h5>A. Sharding</h5>
+          <p class="paragraphmargin">High data volume and throughput of database applications will put a lot of pressure on the performance of a single machine. Using a data model with highly distributed storage catachrestic, MongoDB divides the data and stores them into several nodes. The database developer needs to set the configurations, and the database will automatically do the Sharding work. For client developers, MongoDB Sharding is transparent, and applications only need to operate on the data.
+          </p>
+
+          <h5>B. Replication</h5>
+          <p class="paragraphmargin">of improving fault tolerance for big data storage [7]. The architecture of MongoDB replication is that a Primary node connects with several Secondary nodes. The data will be directly updated into the Primary node and the operation will be recorded into oplog in the Primary node. Then Secondary nodes will read the oplog and update the data that what Primary node did. So that, the data on the Primary and Secondary nodes ensure the final consistency. When the Primary node fails, one Secondary node will be automatically selected as the Primary node, so that the database can run continuously.
+          </p>
+        </div>
           
       <div class="sectionmargin">
         <h3>IV. SECURITY</h3>
@@ -75,7 +75,8 @@ Each database is designed to work in a different domain to meet the functional a
         <h3>V. CONCLUSION</h3>
         <p class="paragraphmargin">MongoDB is a popular NoSQL database used in various field. Due to the differences with traditional relational databases and other types of NoSQL databases and the continuous updating of MongoDB, developers many get confused about why chose MongoDB, what MongoDB can do and how MongoDB works. This research paper illustrates the data model and the main techniques that MongoDB adopted. Developers can explorer those areas to better implement solutions on MongoDB.
         </p>
-        
+      </div> 
+    
       <div class="sectionmargin">
         <h3>REFERENCES</h3>
         <p>[1] C. Strozzi, "NoSQL: A relational database management system," Lainattu, vol. 5, p. 2014, 1998.
