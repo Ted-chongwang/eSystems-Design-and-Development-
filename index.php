@@ -57,17 +57,13 @@ Each database is designed to work in a different domain to meet the functional a
         </p>
       </div>
     
-      <div class="sectionmargin">
         <h5>A. Sharding</h5>
         <p class="paragraphmargin">High data volume and throughput of database applications will put a lot of pressure on the performance of a single machine. Using a data model with highly distributed storage catachrestic, MongoDB divides the data and stores them into several nodes. The database developer needs to set the configurations, and the database will automatically do the Sharding work. For client developers, MongoDB Sharding is transparent, and applications only need to operate on the data.
         </p>
-      </div>
     
-      <div class="sectionmargin">
         <h5>B. Replication</h5>
         <p class="paragraphmargin">of improving fault tolerance for big data storage [7]. The architecture of MongoDB replication is that a Primary node connects with several Secondary nodes. The data will be directly updated into the Primary node and the operation will be recorded into oplog in the Primary node. Then Secondary nodes will read the oplog and update the data that what Primary node did. So that, the data on the Primary and Secondary nodes ensure the final consistency. When the Primary node fails, one Secondary node will be automatically selected as the Primary node, so that the database can run continuously.
         </p>
-      </div>
           
       <div class="sectionmargin">
         <h3>IV. SECURITY</h3>
