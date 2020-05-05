@@ -116,7 +116,7 @@
         </p>
         <a class="top" href="https://tinyurl.com.ybc7xzyf">https://tinyurl.com.ybc7xzyf</a>
         </p>
-        <p class="top">    QR code:
+        <p>    QR code:
         </p>
         <img class="qr" src="g.PNG" />
       </div>
