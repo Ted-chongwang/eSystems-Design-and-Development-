@@ -18,6 +18,7 @@
        p.pcenter{text-align:center;}
       h2 {text-align:center}
       img.fig {display: block;margin: auto;height:auto;width:50%;}
+      img.qr {position:relative;left:-20px;}
     </style>
   </head>
   
@@ -30,7 +31,8 @@
         <p class="pleft">    Name: Chong Wang</p>
         <p class="pleft">    Student ID: 19040821</p>
         <p class="pleft">    Email: crq2021@autuni.ac.nz</p>
-        <img src="h.png" />
+        <p class="pleft">    QR code link to this page:</p>
+        <img class="qr" src="h.PNG" />
       </div>
 
       <div class="sectionmargin">
@@ -108,7 +110,7 @@
         </p>
         <p>This research paper is also presented on another Wiki Page.
         </p>
-        <img src="g.png" />
+        <img class="qr" src="g.PNG" />
       </div>
           
     </div>
