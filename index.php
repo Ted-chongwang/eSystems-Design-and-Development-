@@ -14,13 +14,13 @@
        .mainstyle  {maigin-bottom:5%;margin-left:10%;margin-right:10%;margin-top:5%;}
        .mainmax {max-width:800px;margin:auto;}
        p {text-align:justify;}
-       p.pleft {text-align:left;}
+       p.pleft {text-align:left;margin-top:-10px;}
        p.pcenter{text-align:center;}
-      p.top{margin-top:5px;}
+      p.top{margin-top:-10px;}
       h2 {text-align:center}
       img.fig {display: block;margin: auto;height:auto;width:50%;}
       img.qr {position:relative;left:50px;width:100px;height:100px;}
-      a {margin-top:5px;left:50px}
+      a {margin-top:-10px;left:50px}
     </style>
   </head>
   
