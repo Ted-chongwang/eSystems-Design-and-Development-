@@ -51,8 +51,8 @@
         </p>
          <p class="paragraphmargin">IoT-generate data have the characteristics of high volume, velocity and variety. It needs to be stored in a database designed to overcome the rapid growth of big data [4]. Unlike relational databases, MongoDB documents do not need to set the same fields, fields do not need to be defined in advance and the same fields do not need the same data type. Therefore, the MongoDB does not need to store null values and can merge columns of the same expression in different data types from a relational database. It is not necessary to update the entire table when maintaining the structure of the table like a relational database. This makes the MongoDB reduce storage, reduce query time, and facilitate structure updates. MongoDB reduces the complexity of database design, reduces redundancy, and increases maintainability and scalability to meet the needs of big data storage. MongoDB is a good solution for high volume data set with constantly changing schema, but hard to deal with the data have many relations and a lot of normalization [5].
         </p>
-        <img src="1.png" />Figure 1. MongoDB field, document and collection. [8]</p>
-        <p text-align:center;>
+        <img src="1.png" />
+        <p text-align:center;>Figure 1. MongoDB field, document and collection. [8]</p>
       </div>
 
         <div class="sectionmargin">
