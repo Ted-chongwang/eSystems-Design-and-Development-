@@ -16,9 +16,10 @@
        p {text-align:justify;}
        p.pleft {text-align:left;}
        p.pcenter{text-align:center;}
+      p.top{margin-top:20px;}
       h2 {text-align:center}
       img.fig {display: block;margin: auto;height:auto;width:50%;}
-      img.qr {position:relative;left:-20px;}
+      img.qr {position:relative;left:-20px;width:100px;height:100px;}
     </style>
   </head>
   
@@ -109,6 +110,12 @@
         <p>[8] MongoDB: https://www.mongodb.com
         </p>
         <p>This research paper is also presented on another Wiki Page.
+        </p>
+        <p class="top">    URL:
+        </p>
+        <a class="top" href="https://tinyurl.com.ybc7xzyf">        https://tinyurl.com.ybc7xzyf</a>
+        </p>
+        <p class="top">    QR code:
         </p>
         <img class="qr" src="g.PNG" />
       </div>
