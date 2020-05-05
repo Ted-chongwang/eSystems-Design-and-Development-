@@ -16,10 +16,11 @@
        p {text-align:justify;}
        p.pleft {text-align:left;}
        p.pcenter{text-align:center;}
-      p.top{margin-top:20px;}
+      p.top{margin-top:5px;}
       h2 {text-align:center}
       img.fig {display: block;margin: auto;height:auto;width:50%;}
-      img.qr {position:relative;left:-20px;width:100px;height:100px;}
+      img.qr {position:relative;left:50px;width:100px;height:100px;}
+      a {margin-top:5px;left:50px}
     </style>
   </head>
   
@@ -113,7 +114,7 @@
         </p>
         <p class="top">    URL:
         </p>
-        <a class="top" href="https://tinyurl.com.ybc7xzyf">        https://tinyurl.com.ybc7xzyf</a>
+        <a href="https://tinyurl.com.ybc7xzyf">https://tinyurl.com.ybc7xzyf</a>
         </p>
         <p class="top">    QR code:
         </p>
