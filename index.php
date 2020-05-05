@@ -112,14 +112,13 @@
         </p>
         <p>This research paper is also presented on another Wiki Page.
         </p>
-        <p class="top">    QR code:
-        </p>
-        <img class="qr" src="g.PNG" />
         <p class="top">    URL:
         </p>
         <a href="https://tinyurl.com.ybc7xzyf">https://tinyurl.com.ybc7xzyf</a>
         </p>
-
+        <p class="top">    QR code:
+        </p>
+        <img class="qr" src="g.PNG" />
       </div>
           
     </div>
