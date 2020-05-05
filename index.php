@@ -16,11 +16,11 @@
        p {text-align:justify;}
        p.pleft {text-align:left;margin-top:-10px;}
        p.pcenter{text-align:center;}
-      p.top{margin-top:-10px;}
+      p.top{margin-top:-20px;}
       h2 {text-align:center}
       img.fig {display: block;margin: auto;height:auto;width:50%;}
       img.qr {position:relative;left:50px;width:100px;height:100px;}
-      a {margin-top:-10px;left:50px}
+      a {margin-top:-20px;left:50px}
     </style>
   </head>
   
@@ -112,13 +112,14 @@
         </p>
         <p>This research paper is also presented on another Wiki Page.
         </p>
+        <p class="top">    QR code:
+        </p>
+        <img class="qr" src="g.PNG" />
         <p class="top">    URL:
         </p>
         <a href="https://tinyurl.com.ybc7xzyf">https://tinyurl.com.ybc7xzyf</a>
         </p>
-        <p class="top">    QR code:
-        </p>
-        <img class="qr" src="g.PNG" />
+
       </div>
           
     </div>
