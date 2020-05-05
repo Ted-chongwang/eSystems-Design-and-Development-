@@ -12,7 +12,7 @@
        .sectionmargin {margin-bottom:6%;}
        .paragraphmargin {margin-bottom:3%;}
        .mainstyle  {maigin-bottom:5%;margin-left:10%;margin-right:10%;margin-top:5%;}
-       .mainmax {max-width:800px;}
+       .mainmax {max-width:100px;}
        p {text-align:justify;}
        p.pleft {text-align:left;}
       h2 {text-align:center}
