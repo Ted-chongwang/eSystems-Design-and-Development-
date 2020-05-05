@@ -17,7 +17,7 @@
        p.pleft {text-align:left;}
        p.pcenter{text-align:center;}
       h2 {text-align:center}
-      img {display: block;margin: auto;height:auto;width:50%;}
+      img.fig {display: block;margin: auto;height:auto;width:50%;}
     </style>
   </head>
   
@@ -30,6 +30,7 @@
         <p class="pleft">    Name: Chong Wang</p>
         <p class="pleft">    Student ID: 19040821</p>
         <p class="pleft">    Email: crq2021@autuni.ac.nz</p>
+        <img src="h.png" />
       </div>
 
       <div class="sectionmargin">
@@ -52,7 +53,7 @@
         </p>
          <p class="paragraphmargin">IoT-generate data have the characteristics of high volume, velocity and variety. It needs to be stored in a database designed to overcome the rapid growth of big data [4]. Unlike relational databases, MongoDB documents do not need to set the same fields, fields do not need to be defined in advance and the same fields do not need the same data type. Therefore, the MongoDB does not need to store null values and can merge columns of the same expression in different data types from a relational database. It is not necessary to update the entire table when maintaining the structure of the table like a relational database. This makes the MongoDB reduce storage, reduce query time, and facilitate structure updates. MongoDB reduces the complexity of database design, reduces redundancy, and increases maintainability and scalability to meet the needs of big data storage. MongoDB is a good solution for high volume data set with constantly changing schema, but hard to deal with the data have many relations and a lot of normalization [5].
         </p>
-        <img src="1.png" />
+        <img class="fig" src="1.png" />
         <p class="pcenter">Figure 1. MongoDB field, document and collection. [8]</p>
       </div>
 
@@ -65,13 +66,13 @@
           <h5>A. Sharding</h5>
           <p class="paragraphmargin">High data volume and throughput of database applications will put a lot of pressure on the performance of a single machine. Using a data model with highly distributed storage catachrestic, MongoDB divides the data and stores them into several nodes. The database developer needs to set the configurations, and the database will automatically do the Sharding work. For client developers, MongoDB Sharding is transparent, and applications only need to operate on the data.
           </p>
-          <img src="2.png" />
+          <img class="fig" src="2.png" />
           <p class="pcenter">Figure 2. MongoDB Sarding work flow from client to servers. [8]</p>
           
           <h5>B. Replication</h5>
           <p class="paragraphmargin">of improving fault tolerance for big data storage [7]. The architecture of MongoDB replication is that a Primary node connects with several Secondary nodes. The data will be directly updated into the Primary node and the operation will be recorded into oplog in the Primary node. Then Secondary nodes will read the oplog and update the data that what Primary node did. So that, the data on the Primary and Secondary nodes ensure the final consistency. When the Primary node fails, one Secondary node will be automatically selected as the Primary node, so that the database can run continuously.
           </p>
-          <img src="3.png" />
+          <img class="fig" src="3.png" />
           <p class="pcenter">Figure 3. MongoDB Replication technique. [8]</p>
         </div>
           
@@ -105,6 +106,9 @@
         </p>
         <p>[8] MongoDB: https://www.mongodb.com
         </p>
+        <p>This research paper is also presented on another Wiki Page.
+        </p>
+        <img src="g.png" />
       </div>
           
     </div>
