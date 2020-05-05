@@ -3,7 +3,7 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -11,7 +11,8 @@
     <style>
        .sectionmargin {margin-bottom:6%;}
        .paragraphmargin {margin-bottom:3%;}
-       .mainstyle  {maigin-bottom:5%;margin-left:10%;margin-right:10%;margin-top:5%;max-width:800px}
+       .mainstyle  {maigin-bottom:5%;margin-left:10%;margin-right:10%;margin-top:5%;}
+       .mainmax {max-width:800px;}
        p {text-align:justify;}
        p.pleft {text-align:left;}
       h2 {text-align:center}
@@ -19,6 +20,7 @@
   </head>
   
   <body class="main-style">
+  <body class="mainmax">
       <div class="sectionmargin">
         <h2>NoSQL Development: MongoDB</h1>
       </div>
@@ -97,6 +99,7 @@
         </p>
       </div>
           
+    </div>
     </div>
   </body>
 </html>
