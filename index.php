@@ -12,10 +12,11 @@
        .sectionmargin {margin-bottom:6%;}
        .paragraphmargin {margin-bottom:3%;}
        .mainstyle  {maigin-bottom:5%;margin-left:10%;margin-right:10%;margin-top:5%;}
-       .mainmax {max-width:800px;}
+       .mainmax {max-width:800px;margin:auto;}
        p {text-align:justify;}
        p.pleft {text-align:left;}
       h2 {text-align:center}
+      img {display: block;margin: auto;height:auto;width:50%;}
     </style>
   </head>
   
